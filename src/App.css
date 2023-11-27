@@ -1,0 +1,62 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--gradient-color);
+}
+
+.h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cabecera {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.buscar-tarea {
+  width: 900px;
+  height: 600px;
+  max-height: 600px;
+  border-radius: 50px;
+  background-color: var(--color-white);
+  padding: 2rem 3rem;
+}
+
+.logo {
+  width: 70px;
+}
+
+@media (max-width: 920px) {
+  .buscar-tarea {
+    width: 550px;
+    height: 550px
+  }
+}
+
+@media (max-width: 580px) {
+  .buscar-tarea {
+    width: 370px;
+    height: 600px;
+  } 
+
+  .cabecera {
+    margin-bottom: 2rem;
+  }
+
+  .h1 {
+    font-size: 25px;
+  }
+
+  .logo {
+    width: 50px;
+  }
+}
